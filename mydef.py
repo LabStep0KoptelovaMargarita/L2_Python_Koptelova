@@ -1,9 +1,9 @@
+#19
 def add_numbers(a, b):
     return a + b
-
-# Пример использования
 result = add_numbers(5, 3)
-print("Сумма чисел:", result)  # Вывод: 8
+print("Сумма чисел:", result)
+#20
 def is_prime(n):
     if n <= 1:
         return False
@@ -11,16 +11,13 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
-
-# Пример использования
-print(is_prime(7))  # Вывод: True
-print(is_prime(4))  # Вывод: False
+print(is_prime(7))  
+print(is_prime(4))  
+#21
 def calculate_average(numbers):
-    if not numbers:  # Проверка пустого списка
+    if not numbers:  
         return 0
     return sum(numbers) / len(numbers)
-
-# Пример использования
 grades = [85, 90, 78, 92, 88]
 average = calculate_average(grades)
-print("Среднее значение:", average)  # Вывод: 86.6
+print("Среднее значение:", average)  
